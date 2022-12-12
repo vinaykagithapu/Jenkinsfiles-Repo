@@ -16,6 +16,8 @@ pipeline {
                 sh '''
                   pwd
                   java -version
+                  javac sampleApp.java
+                  java sampleApp
                 '''
             }
         }
